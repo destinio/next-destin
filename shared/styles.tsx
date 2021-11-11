@@ -1,20 +1,3 @@
-// import { css } from '@emotion/react'
-
-// const GlobalStyles = css`
-//   * {
-//     margin: 0;
-//     padding: 0;
-//     box-sizing: border-box;
-//     font-weight: normal;
-//   }
-
-//   body {
-//     font-family: sans-serif;
-//     color: #fff;
-//     background-color: #222;
-//   }
-// `
-
 import { css } from '@emotion/react'
 
 const RATIO = 1.3
