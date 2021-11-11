@@ -70,7 +70,7 @@ const Home: NextPage = () => {
   return (
     <StyledHome>
       <h1>
-        <div>Welcome,</div> <div>I'm Destin.</div>
+        <div>Welcome,</div> <div>Im Destin.</div>
       </h1>
       <h2>
         <div>Strive not to be a success, but rather to be of value. </div>
@@ -79,15 +79,15 @@ const Home: NextPage = () => {
       <p>Software developer, talent manager, and all-around super cool dude!</p>
 
       <p>
-        CSS and{' '}
+        CSS and
         <span data-tip data-for="ts-tip">
           TypeScript
-        </span>{' '}
-        are my jam. You can find my hacking on{' '}
+        </span>
+        are my jam. You can find my hacking on
         <a href="https://codepen.io/destinio" style={{ color: '#FFDD41' }}>
           Codepen
-        </a>{' '}
-        and{' '}
+        </a>
+        and
         <a href="https://github.com/destinio" style={{ color: '#58A6FF' }}>
           GitHub
         </a>
@@ -95,11 +95,11 @@ const Home: NextPage = () => {
       </p>
 
       <p>
-        I also have opinions on web software development and share them on{' '}
+        I also have opinions on web software development and share them on
         <a href="https://www.twitch.tv/coderdestin" style={{ color: '#A870FF' }}>
           Twitch
-        </a>{' '}
-        and{' '}
+        </a>
+        and
         <a href="https://twitter.com/coderdestin" style={{ color: '#1DA1F1' }}>
           Twitter
         </a>
@@ -107,7 +107,7 @@ const Home: NextPage = () => {
       </p>
 
       <p>
-        Those that know me know I love BBQ, and I love sharing the desirable images on{' '}
+        Those that know me know I love BBQ, and I love sharing the desirable images on
         <a href="https://www.instagram.com/famleebbqwi/" style={{ color: '#e456a0' }}>
           Instagram
         </a>
@@ -115,7 +115,7 @@ const Home: NextPage = () => {
       </p>
 
       <p>
-        If you are interested in my work history, you can head over to{' '}
+        If you are interested in my work history, you can head over to
         <a href="https://www.linkedin.com/in/destinlee/" style={{ color: '#4c95de' }}>
           LinkedIn
         </a>
@@ -123,7 +123,6 @@ const Home: NextPage = () => {
       </p>
       <p style={{ fontSize: '2em' }}>☯︎</p>
 
-      {/* Tooltip */}
       <ReactTooltip id="ts-tip" place="top" effect="solid" type="info" border className="ts-tip">
         <span>
           TypeScript is a strict syntactical superset of JavaScript and adds optional static typing
