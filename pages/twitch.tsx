@@ -9,8 +9,8 @@ const StyledTwitchContainer = styled.main`
   flex-direction: column;
 
   svg {
-    width: 80%;
-    margin: 0 0 3rem;
+    width: 70%;
+    margin: 2rem;
   }
 `
 
