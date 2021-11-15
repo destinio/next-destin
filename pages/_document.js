@@ -9,9 +9,7 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <Head>
-          <script async src="https://static.getclicky.com/101326279.js" defer></script>
-        </Head>
+        <Head></Head>
         <body>
           <Main />
           <NextScript />

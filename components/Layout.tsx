@@ -36,6 +36,7 @@ function Layout({ children }: { children: ReactElement }) {
         {/* <link rel="canonical" rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="canonical" rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="canonical" rel="manifest" href="/site.webmanifest" /> */}
+        <script async src="https://static.getclicky.com/101326279.js" defer></script>
 
         <title>Destin Lee - Software Developer</title>
       </Head>
