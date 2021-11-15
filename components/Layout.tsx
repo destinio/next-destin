@@ -38,7 +38,6 @@ function Layout({ children }: { children: ReactElement }) {
         <link rel="canonical" rel="manifest" href="/site.webmanifest" /> */}
 
         <title>Destin Lee - Software Developer</title>
-        <script async src="//static.getclicky.com/101326279.js"></script>
       </Head>
       <div className="layout">{children}</div>
     </>
