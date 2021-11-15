@@ -38,10 +38,7 @@ function Layout({ children }: { children: ReactElement }) {
         <link rel="canonical" rel="manifest" href="/site.webmanifest" /> */}
 
         <title>Destin Lee - Software Developer</title>
-        <script>
-          var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101326279);
-        </script>
-        <script async src="//static.getclicky.com/js"></script>
+        <script async src="//static.getclicky.com/101326279.js"></script>
       </Head>
       <div className="layout">{children}</div>
     </>
