@@ -1,6 +1,6 @@
 import styled from '@emotion/styled'
 import { NextPage } from 'next'
-import ReactTooltip from 'react-tooltip'
+import { CgYinyang } from 'react-icons/cg'
 
 const StyledHome = styled.main`
   max-width: 60rem;
@@ -66,6 +66,25 @@ const StyledHome = styled.main`
   }
 `
 
+const StyledText = styled.a`
+  color: ${({ color }) => (color ? color : 'blue')};
+`
+
+const StyledGradText = styled(StyledText)`
+  background-image: linear-gradient(90deg, #fb8817, #ff4b01, #c12127, #e02aff);
+  background-clip: text;
+  color: rgba(0, 0, 0, 0);
+`
+
+const StyledYinAndYang = styled(CgYinyang)`
+  animation: spin 10s linear infinite;
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
+
 const Home: NextPage = () => {
   return (
     <StyledHome>
@@ -76,48 +95,53 @@ const Home: NextPage = () => {
         <div>Strive not to be a success, but rather to be of value. </div>
         <div>-- Albert Einstein</div>
       </h2>
-      <p>Software developer, talent manager, and all-around super cool dude!</p>
-
+      <p>Software developer and talent manager</p>
       <p>
-        CSS and <span>TypeScript</span> are my jam. You can find my hacking on{' '}
-        <a href="https://codepen.io/destinio" style={{ color: '#FFDD41' }}>
+        You can find my hacking on{' '}
+        <StyledText href="https://codepen.io/destinio" color="#FFDD41">
           Codepen
-        </a>{' '}
-        and{' '}
-        <a href="https://github.com/destinio" style={{ color: '#58A6FF' }}>
+        </StyledText>
+        ,{' '}
+        <StyledText href="https://github.com/destinio" color="#58A6FF">
           GitHub
-        </a>
+        </StyledText>
+        , and{' '}
+        <StyledGradText color="red" href="https://www.npmjs.com/~destinio">
+          NPM
+        </StyledGradText>
         .
       </p>
 
       <p>
         I also have opinions on web software development and share them on{' '}
-        <a href="https://www.twitch.tv/coderdestin" style={{ color: '#A870FF' }}>
+        <StyledText href="https://www.twitch.tv/coderdestin" color="#A870FF">
           Twitch
-        </a>{' '}
+        </StyledText>{' '}
         and{' '}
-        <a href="https://twitter.com/coderdestin" style={{ color: '#1DA1F1' }}>
+        <StyledText href="https://twitter.com/coderdestin" color="#1DA1F1">
           Twitter
-        </a>
+        </StyledText>
         .
       </p>
 
       <p>
         Those that know me know I love BBQ, and I love sharing the desirable images on{' '}
-        <a href="https://www.instagram.com/famleebbqwi/" style={{ color: '#e456a0' }}>
+        <StyledText href="https://www.instagram.com/famleebbqwi/" color="#e456a0">
           Instagram
-        </a>
+        </StyledText>
         .
       </p>
 
       <p>
         If you are interested in my work history, you can head over to{' '}
-        <a href="https://www.linkedin.com/in/destinlee/" style={{ color: '#4c95de' }}>
+        <StyledText href="https://www.linkedin.com/in/destinlee/" color="#4c95de">
           LinkedIn
-        </a>
+        </StyledText>
         .
       </p>
-      <p style={{ fontSize: '2em' }}>☯︎</p>
+      <p style={{ fontSize: '2em' }}>
+        <StyledYinAndYang />
+      </p>
     </StyledHome>
   )
 }
