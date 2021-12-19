@@ -95,7 +95,7 @@ const Home: NextPage = () => {
         <div>Strive not to be a success, but rather to be of value. </div>
         <div>-- Albert Einstein</div>
       </h2>
-      <p>Software developer and talent manager</p>
+      <p>Software developer and talent manager.</p>
       <p>
         You can find my hacking on{' '}
         <StyledText href="https://codepen.io/destinio" color="#FFDD41">
@@ -114,10 +114,9 @@ const Home: NextPage = () => {
 
       <p>
         I also have opinions on web software development and share them on{' '}
-        <StyledText href="https://www.twitch.tv/coderdestin" color="#A870FF">
+        {/* <StyledText href="https://www.twitch.tv/coderdestin" color="#A870FF">
           Twitch
-        </StyledText>{' '}
-        and{' '}
+        </StyledText>{' '} */}
         <StyledText href="https://twitter.com/coderdestin" color="#1DA1F1">
           Twitter
         </StyledText>
