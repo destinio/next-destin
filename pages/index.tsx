@@ -5,7 +5,7 @@ import { CgYinyang } from 'react-icons/cg'
 const StyledHome = styled.main`
   max-width: 900px;
   width: 100%;
-  height: 80%;
+  height: 100vh;
   padding: 0 2rem;
   margin: 0 auto;
   display: flex;
