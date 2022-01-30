@@ -3,7 +3,7 @@ import { NextPage } from 'next'
 import { CgYinyang } from 'react-icons/cg'
 
 const StyledHome = styled.main`
-  max-width: 1080px;
+  max-width: 900px;
   width: 100%;
   height: 80%;
   padding: 0 2rem;
