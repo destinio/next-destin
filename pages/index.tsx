@@ -11,6 +11,8 @@ const StyledHome = styled.main`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
 
   span {
     display: block;
@@ -40,9 +42,15 @@ const StyledHome = styled.main`
   }
 `
 
+const StyledLinks = styled.nav`
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  margin: 0 0 var(--step-2);
+`
+
 const StyledText = styled.a`
   color: ${({ color }) => (color ? color : 'blue')};
-  margin: 0 var(--step-0) 0 0;
 `
 
 const StyledGradText = styled(StyledText)`
@@ -65,7 +73,7 @@ const Home: NextPage = () => {
   return (
     <StyledHome>
       <h1>Destin Lee.</h1>
-      <p>
+      <StyledLinks>
         <StyledText href="https://github.com/destinio" color="#58A6FF">
           GitHub
         </StyledText>
@@ -78,7 +86,7 @@ const Home: NextPage = () => {
         <StyledText href="https://www.linkedin.com/in/destinlee/" color="#4c95de">
           LinkedIn
         </StyledText>
-      </p>
+      </StyledLinks>
       <blockquote>
         <span>Strive not to be a success, but rather to be of value.</span>
         <span>-- Albert Einstein</span>

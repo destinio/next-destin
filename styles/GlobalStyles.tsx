@@ -53,9 +53,9 @@ const GlobalStyles = css`
   }
 
   h1 {
-    font-size: var(--step-4);
+    font-size: var(--step-5);
     font-weight: 700;
-    margin: 0 0 var(--step--1);
+    margin: 0 0 var(--step-0);
   }
   h2 {
     font-size: var(--step-1);
@@ -75,7 +75,7 @@ const GlobalStyles = css`
   }
 
   p {
-    margin: 0 0 var(--step--3);
+    margin: 0 0 var(--step--2);
   }
 
   blockquote {
