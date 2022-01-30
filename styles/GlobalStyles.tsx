@@ -30,7 +30,7 @@ const GlobalStyles = css`
     font-family: Helvetica, sans-serif;
     font-size: var(--step-0);
     background-color: #1c1d21ff;
-    color: #fee;
+    color: #fffafa;
     height: 100vh;
   }
 
