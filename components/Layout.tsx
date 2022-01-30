@@ -1,7 +1,7 @@
 import Head from 'next/head'
-import { ReactElement } from 'react'
+import { ReactNode } from 'react'
 
-function Layout({ children }: { children: ReactElement }) {
+function Layout({ children }: { children: ReactNode }) {
   return (
     <>
       <Head>
@@ -40,7 +40,7 @@ function Layout({ children }: { children: ReactElement }) {
 
         <title>Destin Lee - Software Developer</title>
       </Head>
-      <div className="layout">{children}</div>
+      <div id="main_layout">{children}</div>
     </>
   )
 }
