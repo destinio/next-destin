@@ -3,10 +3,10 @@ import { NextPage } from 'next'
 import { CgYinyang } from 'react-icons/cg'
 
 const StyledHome = styled.main`
-  max-width: 60rem;
+  max-width: 1080px;
   width: 100%;
   height: 80%;
-  padding: 1rem 1rem 0;
+  padding: 0 2rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

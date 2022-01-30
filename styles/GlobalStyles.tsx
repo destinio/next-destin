@@ -4,16 +4,16 @@ const GlobalStyles = css`
   @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 
   :root {
-    --step--4: clamp(0.72rem, 0.64rem + 0.43vw, 1.02rem);
-    --step--3: clamp(0.87rem, 0.75rem + 0.59vw, 1.28rem);
-    --step--2: clamp(1.04rem, 0.88rem + 0.8vw, 1.6rem);
-    --step--1: clamp(1.25rem, 1.04rem + 1.07vw, 2rem);
-    --step-0: clamp(1.5rem, 1.21rem + 1.43vw, 2.5rem);
-    --step-1: clamp(1.8rem, 1.42rem + 1.89vw, 3.13rem);
-    --step-2: clamp(2.16rem, 1.66rem + 2.49vw, 3.91rem);
-    --step-3: clamp(2.59rem, 1.94rem + 3.27vw, 4.88rem);
-    --step-4: clamp(3.11rem, 2.26rem + 4.28vw, 6.1rem);
-    --step-5: clamp(3.73rem, 2.62rem + 5.57vw, 7.63rem);
+    --step--4: clamp(0.72rem, 0.6rem + 0.63vw, 1.02rem);
+    --step--3: clamp(0.87rem, 0.69rem + 0.87vw, 1.28rem);
+    --step--2: clamp(1.04rem, 0.81rem + 1.18vw, 1.6rem);
+    --step--1: clamp(1.25rem, 0.93rem + 1.58vw, 2rem);
+    --step-0: clamp(1.5rem, 1.08rem + 2.11vw, 2.5rem);
+    --step-1: clamp(1.8rem, 1.24rem + 2.79vw, 3.13rem);
+    --step-2: clamp(2.16rem, 1.42rem + 3.68vw, 3.91rem);
+    --step-3: clamp(2.59rem, 1.63rem + 4.82vw, 4.88rem);
+    --step-4: clamp(3.11rem, 1.85rem + 6.3vw, 6.1rem);
+    --step-5: clamp(3.73rem, 2.09rem + 8.2vw, 7.63rem);
     --blue: #00a7ff;
   }
 
@@ -53,7 +53,7 @@ const GlobalStyles = css`
   }
 
   h1 {
-    font-size: var(--step-3);
+    font-size: var(--step-4);
     font-weight: 700;
     margin: 0 0 var(--step--1);
   }
