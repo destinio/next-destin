@@ -77,7 +77,7 @@ const Home: NextPage = () => {
         <StyledText href="https://github.com/destinio" color="#58A6FF">
           GitHub
         </StyledText>
-        <StyledText href="https://codepen.io/destinio" color="#FFDD41">
+        <StyledText href="https://codepen.io/destinio/pens/public" color="#FFDD41">
           Codepen
         </StyledText>
         <StyledGradText color="red" href="https://www.npmjs.com/~destinio">
