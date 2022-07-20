@@ -45,7 +45,8 @@ const StyledHome = styled.main`
 const StyledLinks = styled.nav`
   display: flex;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 0.5em;
   margin: 0 0 var(--step-2);
 `
 
@@ -77,20 +78,22 @@ const Home: NextPage = () => {
         <StyledText href="https://github.com/destinio" color="#58A6FF">
           GitHub
         </StyledText>
-        <StyledText href="https://codepen.io/destinio/pens/public" color="#FFDD41">
+        <StyledText
+          href="https://codepen.io/destinio/pens/public"
+          color="#FFDD41"
+        >
           Codepen
         </StyledText>
         <StyledGradText color="red" href="https://www.npmjs.com/~destinio">
           NPM
         </StyledGradText>
-        <StyledText href="https://www.linkedin.com/in/destinlee/" color="#4c95de">
+        <StyledText
+          href="https://www.linkedin.com/in/destinlee/"
+          color="#4c95de"
+        >
           LinkedIn
         </StyledText>
       </StyledLinks>
-      <blockquote>
-        <span>Strive not to be a success, but rather to be of value.</span>
-        <span>-- Albert Einstein</span>
-      </blockquote>
       <StyledYinAndYang />
     </StyledHome>
   )
