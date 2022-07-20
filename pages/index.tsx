@@ -3,8 +3,6 @@ import { NextPage } from 'next'
 import { CgYinyang } from 'react-icons/cg'
 
 const StyledHome = styled.main`
-  max-width: 900px;
-  width: 100%;
   height: 100vh;
   padding: 0 2rem;
   margin: 0 auto;
@@ -13,6 +11,11 @@ const StyledHome = styled.main`
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  @media screen and (max-width: 500px) {
+    justify-content: flex-start;
+    padding: 3em 0 0;
+  }
 
   span {
     display: block;
@@ -26,28 +29,26 @@ const StyledHome = styled.main`
 
   a {
     cursor: pointer;
-    display: inline-block;
-    transition: transform 200ms ease;
+    transition: transform 150ms ease;
     font-weight: bold;
 
-    &:nth-of-type(odd):hover,
-    &:nth-of-type(odd):focus {
-      transform: rotate(-8deg);
-    }
-
-    &:nth-of-type(even):hover,
-    &:nth-of-type(even):focus {
-      transform: rotate(-8deg);
+    &:hover,
+    &:focus {
+      transform: scale(1.1);
     }
   }
 `
 
 const StyledLinks = styled.nav`
   display: flex;
-  width: 100%;
   justify-content: center;
   gap: 0.5em;
   margin: 0 0 var(--step-2);
+
+  @media screen and (max-width: 500px) {
+    gap: 0;
+    flex-direction: column;
+  }
 `
 
 const StyledText = styled.a`

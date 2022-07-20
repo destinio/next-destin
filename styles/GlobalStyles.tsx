@@ -29,7 +29,7 @@ const GlobalStyles = css`
   body {
     font-family: Helvetica, sans-serif;
     font-size: var(--step-0);
-    background-color: #1c1d21ff;
+    background-color: hsl(0, 0%, 12%);
     color: #fffafa;
     height: 100vh;
   }
