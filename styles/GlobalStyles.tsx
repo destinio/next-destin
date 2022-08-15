@@ -55,7 +55,7 @@ const GlobalStyles = css`
   h1 {
     font-size: var(--step-5);
     font-weight: 700;
-    margin: 0 0 var(--step-0);
+    /* margin: 0 0 var(--step-0); */
   }
   h2 {
     font-size: var(--step-1);
