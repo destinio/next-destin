@@ -4,7 +4,7 @@ export default function searchHandler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  if (req.method === 'GET') {
+  if (req.method === 'POST') {
     const { term } = req.body as { term: string }
     const cleanTerm = term.toLowerCase().split(' ').join('%20')
 
